@@ -4,7 +4,9 @@ We’ve all seen them. The LinkedIn posts from self-proclaimed "10x Developers" 
 
 *"I drank 14 Red Bulls and cranked out 300,000 lines of code this weekend. My keyboard is literally smoking. What did YOU do with your Sunday?"*
 
-As an industry, we know that Lines of Code (LOC) is a terrible metric. Bill Gates famously said, *"Measuring programming progress by lines of code is like measuring airplane building progress by weight."* Code is often a liability, not an asset. Every line you write is a line you have to maintain, secure, and debug. NASA has stated that for roughly every 20 lines of code, a bug is introduced. 
+As an industry, we know that Lines of Code (LOC) is a terrible metric. C.A.R. Hoare famously noted that there are two ways to build software: one so simple there are obviously no deficiencies, and the other so complicated there are no obvious deficiencies. 
+
+Code is often a liability, not an asset. Every line you write is a line you have to maintain, secure, and debug. NASA has stated that for roughly every 20 lines of code, a bug is introduced. 
 
 But I didn't want to just write a think-piece about why LOC is a bad metric. I wanted to prove it. I wanted to become the ultimate liability. I wanted to become a **35-Million-X Developer**.
 

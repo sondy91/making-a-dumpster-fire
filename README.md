@@ -14,4 +14,4 @@ While the main DFDD repository serves as the "Enterprise Monolith" (the actual 3
 In true Enterprise fashion, we have separated the "Business Logic" (the dumpster fire) from the "DevOps & Infrastructure" (the match that lit it). This allows for maximum architectural synergy and prevents the build-scripts from being lost in the 35 million lines of validation code.
 
 ---
-*"Measuring programming progress by lines of code is like measuring airplane building progress by weight."* - Bill Gates
+*"There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult."* - C.A.R. Hoare

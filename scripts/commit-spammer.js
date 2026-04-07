@@ -9,7 +9,7 @@ const path = require('path');
 
 const PROJECT_ROOT = path.join(__dirname, '..');
 const COMMITS_DIR = path.join(PROJECT_ROOT, 'commits-hell');
-const TARGET_COMMITS = 1000;
+const TARGET_COMMITS = 9000;
 
 // All the classics from the Bloat Engine and then some
 const TERRIBLE_MESSAGES = [
