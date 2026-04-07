@@ -13,7 +13,7 @@ if (!fs.existsSync(ABYSS_DIR)) {
     fs.mkdirSync(ABYSS_DIR, { recursive: true });
 }
 
-for (let i = 0; i < 150; i++) {
+for (let i = 0; i < 500; i++) {
     const mod1 = modifiers[Math.floor(Math.random() * modifiers.length)];
     const mod2 = modifiers[Math.floor(Math.random() * modifiers.length)];
     const pattern1 = patterns[Math.floor(Math.random() * patterns.length)];

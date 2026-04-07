@@ -28,16 +28,17 @@ const solidFiles = [
     { name: 'DependencyInversionPrinciple.ts', letter: 'D' }
 ];
 
+for (let k = 0; k < 10; k++) {
 solidFiles.forEach(file => {
     let content = `/**
  * @file ${file.name}
- * @description Implementation of the ${file.letter} principle from SOLID.
+ * @description Implementation of the ${file.letter} principle from SOLID. Iteration ${k}
  * @author Synergy Taskforce
  */
 
 `;
 
-    const className = `Enterprise${file.name.replace('.ts', '')}SynergyImpl`;
+    const className = `Enterprise${file.name.replace('.ts', '')}SynergyImpl_${k}`;
     
     content += `/** This class represents the philosophical manifestation of the ${file.letter} principle. */\n`;
     content += `export class ${className} {\n`;
@@ -60,8 +61,9 @@ solidFiles.forEach(file => {
     content += `${indent}}\n`;
     content += `}\n`;
 
-    fs.writeFileSync(path.join(SOLID_DIR, file.name), content);
-    console.log(`Created ${file.name} with 13-space indentation and Latin variables.`);
+    fs.writeFileSync(path.join(SOLID_DIR, `${k}_${file.name}`), content);
+    console.log(`Created ${k}_${file.name} with 13-space indentation and Latin variables.`);
 });
+}
 
 console.log("✅ SOLID Principles implemented. Vibes are immaculate.");

@@ -7,9 +7,9 @@ const path = require('path');
  * Now with --dry-run and synergistic commit messaging.
  */
 
-const PROJECT_ROOT = path.join(__dirname, '..');
-const COMMITS_DIR = path.join(PROJECT_ROOT, 'commits-hell');
-const TARGET_COMMITS = 9000;
+const PROJECT_ROOT = process.cwd();
+const COMMITS_DIR = path.join(PROJECT_ROOT, 'commits-hell-v2');
+const TARGET_COMMITS = 9001; // IT'S OVER 9000!!!
 
 // All the classics from the Bloat Engine and then some
 const TERRIBLE_MESSAGES = [

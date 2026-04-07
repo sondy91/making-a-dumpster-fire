@@ -81,7 +81,7 @@ It features:
     *   **Destructive Swiping:** A "swipe to delete" feature that occasionally deletes the task above or below what you swiped, or just declares "Task Bankruptcy" and wipes the whole list.
 7. **The Recursive Directory Abyss:** I scaffolded a folder structure so deep it almost hits OS path length limits just to hold a single interface file.
 8. **The Config Graveyard:** I committed 30+ conflicting configuration files (`Cargo.toml`, `pom.xml`, `Gemfile`, `tsconfig.json`, `kubernetes-deployment.yaml`, etc.) to ensure no build tool ever knows what's going on.
-9. **The Atomic Alphabet Commits:** To inflate my contribution graph, I wrote a script that generated 1,000 separate commits, each adding a single character, with commit messages spanning every letter of the alphabet.
+9. **Commit Stream of Consciousness:** To inflate my contribution graph, I wrote a script that generated exactly **9,001 separate commits** (because it's over 9,000) in a single afternoon. Each commit adds a single character to a dummy file, with messages ranging from single letters to desperate pleas for help like "pls work" or "synergy intensifies." I call this paradigm "Commit Stream of Consciousness."
 
 ---
 
